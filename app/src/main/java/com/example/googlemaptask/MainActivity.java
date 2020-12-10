@@ -26,11 +26,5 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-      /*  String data = "GSATECHWORLD";
-        byte[] strBytes = data.getBytes();
-        byte[] result = new byte[strBytes.length];
-        for (int i = 0; i < strBytes.length; i++)
-            result[i] = strBytes[strBytes.length - i - 1];*/
     }
 }
