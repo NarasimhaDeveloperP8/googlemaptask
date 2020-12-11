@@ -4,7 +4,7 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
 
 
 
@@ -20,7 +20,13 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyCq8S9R_nZrssBV6hKNOre2Tcj5Rh38EUY"/>
 
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
         <activity android:name=".MyLocationClass">
+        </activity>
+        <activity android:name=".MapDirectionActivity">
+
         </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
